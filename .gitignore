@@ -1,0 +1,23 @@
+# Dependencies and generated output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local configuration and secrets (keep sanitized examples)
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and OS/editor artifacts
+*.log
+.DS_Store
+Thumbs.db
